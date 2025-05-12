@@ -1,0 +1,24 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# ----- Core -----
+torch
+torchvision
+torchaudio
+tqdm
+numpy<2.0
+scipy
+matplotlib
+mesh-to-sdf
+scikit-image
+torch_ema
+datasets
+huggingface_hub
+python-dotenv
+
+# ----- Data Handling -----
+trimesh[easy]
+plotly
+nbformat
+
+# ----- Accelerated Training -----
+accelerate==0.28.0
